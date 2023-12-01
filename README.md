@@ -41,7 +41,7 @@ O cenário representa um cliente especial com saldo negativo que tenta realizar 
 ### Passos do Cenário
 1. **Given Um cliente especial com saldo atual de -200 reais**
    - **Descrição:** O cenário começa com a condição de um cliente especial com saldo negativo.
-   - **Resultado do Console:** O cenário falhou devido a uma exceção `ExceptionInInitializerError` ao tentar configurar os conversores XStream.
+   - **Resultado do Console:** O cenário falhou devido a uma exceção `ExceptionInInitializerError`.
 
 2. **When for solicitado um saque no valor de 100 reais**
    - **Descrição:** Quando um saque de 100 reais é solicitado pelo cliente especial.
@@ -58,7 +58,6 @@ O cenário representa um cliente especial com saldo negativo que tenta realizar 
 ### Resultado Geral do Cenário
 - **Status:** Falhou
 - **Exceção:** `ExceptionInInitializerError`
-- **Causa:** Inacessibilidade para tornar o campo `comparator` de `TreeMap` acessível.
 
 ## Cenário 2: Cliente comum com saldo negativo
 
@@ -82,6 +81,15 @@ O cenário representa um cliente comum com saldo negativo que tenta realizar um 
 
 ## Conclusões
 Ambos os cenários não foram executados com sucesso devido a uma exceção durante a inicialização. É necessário abordar a exceção `ExceptionInInitializerError` antes de tentar executar esses cenários novamente.
+
+## Próximos passos
+### Correções Necessárias
+
+1. **Resolver Exceção `ExceptionInInitializerError`**
+   - É crucial abordar a exceção que ocorre durante a inicialização (`ExceptionInInitializerError`). Isso impede a execução dos cenários.
+
+2. **Atualização de Dependências**
+   - Verificar e atualizar as dependências, especialmente as relacionadas ao XStream, para garantir compatibilidade e evitar problemas de incompatibilidade.
 
 # Leia-me (README)
 
