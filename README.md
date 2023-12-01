@@ -28,6 +28,11 @@ Mantido por Marcus Takeyasu
 
 # Documentação dos Resultados dos Cenários
 
+![img1-bdd](https://github.com/marcustakeyasu/bdd_conta_bancaria/assets/116593545/bb4a4229-3994-4679-8439-17b314a23f6c)
+![img2-bdd](https://github.com/marcustakeyasu/bdd_conta_bancaria/assets/116593545/b916b1d4-c5fd-4e88-922d-5c6a3499d6bf)
+![img3-bdd](https://github.com/marcustakeyasu/bdd_conta_bancaria/assets/116593545/abfb0041-6962-454e-9d0a-46c262205692)
+![img4-bdd](https://github.com/marcustakeyasu/bdd_conta_bancaria/assets/116593545/d42bd6f6-ebac-443e-a9bc-8c848809a0aa)
+
 ## Cenário 1: Cliente especial com saldo negativo
 
 ### Descrição do Cenário
